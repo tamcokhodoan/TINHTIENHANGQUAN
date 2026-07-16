@@ -66,7 +66,7 @@ with col2:
         
         st.write(f"**Tạm tính:** {tam_tinh:,.0f} VNĐ")
         if giam_gia > 0:
-            st.write(f"**Giảm giá (5%):** -{giam_gia:,.0f} VNĐ")
+            st.write(f"**Giảm giá (10%):** -{giam_gia:,.0f} VNĐ")
         st.metric(label="Tổng thanh toán", value=f"{tong_thanh_toan:,.0f} VNĐ")
         
         if st.button("Xóa giỏ hàng"):
