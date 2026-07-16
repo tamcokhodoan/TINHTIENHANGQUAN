@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Order Nhà Hàng", layout="wide")
 
-st.title("🍽️ Hệ thống Order Nhà Hàng MR. BÌNH - Giảm 5% cho hoá đơn trên 1 triệu")
+st.title("🍽️ Hệ thống Order Nhà Hàng MR.S Trang - Giảm 10% cho hoá đơn trên 1 triệu")
 
 # Thực đơn
 menu = {
@@ -15,7 +15,7 @@ menu = {
     "Thức uống": {
         "Coca Cola": 20000, "Trà Đào Cam Sả": 35000, "Cà Phê Sữa": 25000,
         "Nước Suối": 10000, "Sinh tố Bơ": 45000, "Nước ép cam": 40000,
-        "Mojito chanh dây": 55000, "Bia Heineken": 30000
+        "Mojito chanh dây": 55000, "Bia Heineken": 30000, "rượu vang":18000000,
     }
 }
 
