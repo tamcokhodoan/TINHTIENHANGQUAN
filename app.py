@@ -57,7 +57,7 @@ with col2:
         st.table(df[["Tên món", "Đơn giá", "Số lượng", "Thành tiền"]])
         
         tam_tinh = df["Thành tiền"].sum()
-        giam_gia = (tam_tinh * 0.05) if tam_tinh > 1000000 else 0
+        giam_gia = (tam_tinh * 0.01) if tam_tinh > 1000000 else 0
         
         if giam_gia > 0:
             st.info(f"🎉 Giảm 10% cho hóa đơn trên 1 triệu!")
